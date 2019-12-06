@@ -47,7 +47,7 @@ The number of dimensions of the t-SNE analysis can be specified by the `dims` pa
 tsne<-modelTsne(data=meth, perplexity=12, group=group, dims=3)
 plotTsne(model=tsne, method="plotly", title="modelTsne example #2")
 ```
-![plot modelTsne example 2](vignettes/plot_modelTsne_example_2.png)
+![plot modelTsne example 2](vignettes/plot_modelTsne_example_2.gif)
 
 To perform group-dependent variable selection, the `selectVariables()` function implements the ANOVA and logistic methods (prioritizes samples with lowest p-values). This approach is useful when SD and IQR approaches do no separate the groups of interest satisfactorily, which can be caused by the pressence in the dataset of a dominant trend that interferes or masks entirely the groups of interest. 
 ```
