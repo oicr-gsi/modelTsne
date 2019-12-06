@@ -1,0 +1,20 @@
+Package: modelTsne
+Type: Package
+Version: 0.99.0
+Title: A t-SNE framework to visualize OMICs data
+Authors@R: person("Alberto", "Leon", role = c("aut", "cre"), email = "alberto.leon@oicr.on.ca")
+Description: The modelTsne package provides methods to perform variable selection, t-SNE dimensional reduction analysis, 
+            generation and use of stable t-SNE reference frameworks, and also, plot the resulting t-SNE configurations.
+VignetteBuilder: knitr
+License: MIT License
+URL: https://github.com/translational-genomics-laboratory/modelTsne
+BugReports: https://github.com/translational-genomics-laboratory/modelTsne/issues
+Depends: R (>= 3.5.0)
+Imports: Rtsne,
+    ggplot2,
+    dplyr,
+    plotly,
+    doParallel,
+    foreach
+biocViews: DimensionReduction, FeatureExtraction, DataRepresentation
+LazyData: true
